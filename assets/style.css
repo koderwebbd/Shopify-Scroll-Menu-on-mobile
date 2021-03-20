@@ -1,0 +1,34 @@
+@media (max-width: 750px){
+  .mobile-menu-scroll {
+      -webkit-overflow-scrolling: touch;
+      white-space: nowrap;
+      overflow-x: auto;
+      text-align: left;
+      overflow-y: hidden;
+      overflow: -moz-scrollbars-none;
+      -ms-overflow-style: none;
+      margin-bottom: -10px;
+  }
+  .mobile-menu-scroll div.nav {
+      table-layout: fixed;
+      white-space: nowrap;
+  }
+  .mobile-menu-scroll::-webkit-scrollbar-track {
+    background: #fff; 
+  }
+
+  .mobile-menu-scroll::-webkit-scrollbar {
+    display: none; 
+  }
+
+  ul.nav-list li {
+      display: inline-block;
+      margin: 0;
+      position: relative;
+      padding: 6px 5px 6px 10px;
+  }
+  .nav-list a {
+    color: #fff;
+    text-transform: capitalize;
+}
+}
